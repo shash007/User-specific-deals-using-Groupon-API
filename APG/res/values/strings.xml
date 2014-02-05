@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">APG</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="location">Please enter your location</string>
+    <string name="strShopping">Shopping</string>
+    <string name="strEvents">Events \u0026 Activities</string>
+    <string name="strFood">Food \u0026 Drinks</string>
+    <string name="strApparel">Apparel</string>
+    <string name="strElectronics">Electronics</string>
+    <string name="strLocation">Please enter your location</string>
+    <string name="Location">Please Enter your location</string>
+    <string name="strlocation">Please enter your location</string>
+    <string name="uid">Please Enter the User Name</string>
+    <string name="HintUid">User Name</string>
+    <string name="hintPwd">Password</string>
+    <string name="btnSubmit">Login</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="strFullName">Full Name</string>
+    <string name="strUserId">User Name</string>
+    <string name="strEnterPassword">Enter Password</string>
+    <string name="strChoosePwd">Password</string>
+    <string name="strEmailId">Email Id</string>
+    <string name="strReEnterPassword">Reenter password</string>
+    <string name="btnRegister">Register</string>
+    <string name="title_activity_test">Test</string>
+    <string name="TestBtn">Test Button</string>
+    <string name="NewUser">New User</string>
+    <string name="title_activity_welcome_screen">WelcomeScreen</string>
+    <string name="title_activity_google_maps">GoogleMaps</string>
+    <string name="title_activity_list_view__deals">ListView_Deals</string>
+    <string name="textview1"></string>
+    <string name="textview2"></string>
+    <string name="message">Please select city</string>
+    <string name="mess">Please select City</string>
+    <string name="text"></string>
+    <string name="title_activity_main_activity1">MainActivity1</string>
+    <string name="title_activity_google_maps1">GoogleMaps1</string>
+    <string name="title_activity_list_view__deals1">ListView_Deals1</string>
+    <string name="title_activity_test_wish">TestWish</string>
+    <string name="WIsh">My WIshList</string>
+    <string name="btnPutIntoWish">Add To WishList</string>
+    <string name="etWish">Wish</string>
+    <string name="etAdd"></string>
+    <string name="title_activity_web">Deals Activity</string>
+    <string name="title_activity_web_activity2">Web Activity2</string>
+    <string name="delete">Delete All</string>
+    <string name="coupon">Coupon\'d</string>
+    <string name="wish">My WishList</string>
+    <string name="coupo">Coupon\'d</string>
+    <string name="mainact">Deals Activity</string>
+    <string name="testview3"></string>
+
+</resources>

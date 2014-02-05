@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newone"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SignUp" >
+
+    <TableRow
+        android:id="@+id/trSuFullName"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvSuFullName"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/strFullName" />
+
+       <EditText
+            android:id="@+id/etSuFullName"
+            android:textStyle="bold"
+             android:digits="_, ,qwertzuiopasdfghjklyxcvbnm"
+            
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </TableRow>
+    
+     <TableRow
+         android:id="@+id/trSuUid"
+         
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/trSuFullName"
+         android:layout_marginBottom="10dp"
+         android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/tvSuUid"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+           
+            android:layout_weight="1"
+            android:text="@string/strUserId" />
+
+        <EditText
+            android:id="@+id/etSuUid"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:digits="0,1,2,3,4,5,6,7,8,9,_,qwertzuiopasdfghjklyxcvbnm"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            
+            android:ems="10"
+            />
+    </TableRow>
+
+      <TableRow
+        android:id="@+id/trSuPwd"
+        
+        
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trSuUid"
+       
+       >
+
+        <TextView
+            android:id="@+id/tvSuPwd"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            
+            
+            android:layout_height="fill_parent"
+           
+            android:text="@string/strChoosePwd" />
+
+        <EditText
+            android:id="@+id/etSuPwd"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            
+            android:ems="10"
+            android:inputType="textPassword" />
+    </TableRow>
+     <TableRow
+        android:id="@+id/trSuRePwd"
+         android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trSuPwd"
+         >
+
+        <TextView
+            android:id="@+id/tvSuRePwd"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+             android:layout_weight="1"
+            
+            android:text="@string/strReEnterPassword" />
+
+        <EditText
+            android:id="@+id/etSuRePwd"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            
+            android:ems="10"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnSuSubmit"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trSuRePwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:gravity="center"
+        android:text="@string/btnRegister" />
+
+</RelativeLayout>
+
+
